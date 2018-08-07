@@ -14,7 +14,7 @@ I collected these numbers for each team for each season via the following:
 My purpose in including the latter is based on a belief that performance in "close and late" game situations separate overperforming and underperforming teams (the latter performing especially well in these situations, the former poorly relative to overall game performance).
 
 The files I created to carry out this project are as follows:
-* **bbref_scrape.py**, defining functions to scrape "Season Summary" pages from [Basketball Reference](https://www.basketball-reference.com).
-* **nba_dot_com_scrape.py**, defining functions to scrape "clutch" situation statistics from [NBA.com](https://http://stats.nba.com/teams/clutch-four-factors/?sort=W_PCT&dir=-1).
-* **Team_Game_Stats_Only_Analysis.ipynb**, notebook containing code that scrapes and prepares data from [Basketball Reference](https://www.basketball-reference.com) only, and then performs the full linear regression workflow on this data.
-* **Team_Game+Clutch_Analysis.ipynb**, notebook containing code that scrapes and prepares data from [NBA.com](https://http://stats.nba.com/teams/clutch-four-factors/?sort=W_PCT&dir=-1) and combines it with the [Basketball Reference](https://www.basketball-reference.com) data put together in **Team_Game_Stats_Only_Analysis.ipynb**, before building a linear regression model on the combined data.
+* **bbref_scrape.py**, defining functions to scrape "Season Summary" pages from Basketball Reference.
+* **nba_dot_com_scrape.py**, defining functions to scrape "clutch" situation statistics from NBA.com.
+* **Team_Game_Stats_Only_Analysis.ipynb**, notebook containing code that scrapes and prepares data from Basketball Reference only, and then performs the full linear regression workflow on this data.
+* **Team_Game+Clutch_Analysis.ipynb**, notebook containing code that scrapes and prepares data from NBA.com and combines it with the Basketball Reference data put together in **Team_Game_Stats_Only_Analysis.ipynb**, before building a linear regression model on the combined data.
