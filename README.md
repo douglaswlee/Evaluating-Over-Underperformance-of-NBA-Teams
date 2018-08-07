@@ -18,7 +18,3 @@ The files I created to carry out this project are as follows:
 * **nba_dot_com_scrape.py**, defining functions to scrape "clutch" situation statistics from [NBA.com](https://http://stats.nba.com/teams/clutch-four-factors/?sort=W_PCT&dir=-1).
 * **Team_Game_Stats_Only_Analysis.ipynb**, notebook containing code that scrapes and prepares data from [Basketball Reference](https://www.basketball-reference.com) only, and then performs the full linear regression workflow on this data.
 * **Team_Game+Clutch_Analysis.ipynb**, notebook containing code that scrapes and prepares data from [NBA.com](https://http://stats.nba.com/teams/clutch-four-factors/?sort=W_PCT&dir=-1) and combines it with the [Basketball Reference](https://www.basketball-reference.com) data put together in 'Team_Game_Stats_Only_Analysis.ipynb', before building a linear regression model on the combined data.
-
-Some pickle files containing data prepared for use with the two notebooks are also included:
-* **bbref_team_all_02_18.pkl**, all combined [Basketball Reference](https://www.basketball-reference.com) team data from 2001-02 through 2017-18.
-* **bbref_team_notank_02_18.pkl**, a subset of [Basketball Reference](https://www.basketball-reference.com) team data from 2001-02 through 2017-18 for teams who won at least 30 games in a season.
