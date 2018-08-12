@@ -11,6 +11,7 @@ For all teams from the 2001-02 through the 2017-18 seasons, I focused on the [Fo
 I collected these numbers for each team for each season via the following:
 * "Season Summary" pages from [Basketball Reference](https://www.basketball-reference.com). Here's an [example](https://www.basketball-reference.com/leagues/NBA_2018.html), which provided these numbers over all game situations in a given season.
 * The collection of "clutch" situation statistics from [NBA.com](https://http://stats.nba.com/teams/clutch-four-factors/?sort=W_PCT&dir=-1). These situations are defined as occurring within the last five minutes of regulation or overtime with neither team leading by more than five points.
+
 My purpose in including the latter is based on a belief that performance in "close and late" game situations separate overperforming and underperforming teams (the latter performing especially well in these situations, the former poorly relative to overall game performance).
 
 The files I created to carry out this project are as follows:
