@@ -1,5 +1,7 @@
 # Evaluating-Over-Underperformance-of-NBA-Teams
 
+**TODO (10/17/19): Fix the scraping code for both Basketball-Reference and NBA.com**
+
 This repo contains files for Project Luther, the first individual project I completed for Metis. For this project, I built a linear regression model to predict the difference between the actual winning perecentage of teams and their expected winning percentage by [Pythagorean expectation](https://en.wikipedia.org/wiki/Pythagorean_expectation). The response variable `diffWP` is the difference between actual and expected winning percentage (from Pythagorean expectation). If this difference is positive (negative), a team can be said to have overperformed (underperformed).
 
 For all teams from the 2001-02 through the 2017-18 seasons, I focused on the [Four Factors](https://www.nbastuffer.com/analytics101/four-factors/), which some have found to correlate well with offensive/defensive success in basketball:
